@@ -22,7 +22,7 @@ This project allows users to customize the appearance of a webpage, including ch
 ## Setup Instructions
 1. Clone this repository to your local machine using:
     ```bash
-    git clone https://github.com/your-username/mtm6302-persistent-preferences-your-github-username.git
+    git clone https://github.com/MallikaKapoor041130241/mtm6302-persistent-preferences-Mallika-Kapoor-041130241.git
     ```
 2. Open the `index.html` file in your preferred browser to view the web page.
 
