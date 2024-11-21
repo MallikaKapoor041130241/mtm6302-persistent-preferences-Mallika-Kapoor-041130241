@@ -1,0 +1,102 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* preferences and list */
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; 
+    padding: 20px;
+}
+
+.list-container {
+    width: 70%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.list-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+/* Preferences Panel */
+.preferences {
+    width: 28%;
+    padding: 20px;
+    border-left: 2px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.preferences h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    margin: 15px 0;
+    font-size: 1.2rem; 
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* Light Theme */
+.light-theme {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Dark Theme */
+.dark-theme {
+    background-color: #000000;
+    color: white;
+}
+
+/* Blue Theme */
+.blue-theme {
+    background-color: #add8e6;
+    color: #333;
+}
+
+/* List Style Customizations */
+.bullet {
+    list-style-type: disc;
+}
+
+.number {
+    list-style-type: decimal;
+}
+
+.square {
+    list-style-type: square;
+}
